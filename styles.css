@@ -14,8 +14,10 @@
   --education-detail: #36b8fa;
 }
 
+
 body {
   margin: 0;
+  /* padding: 0 20px; Adds horizontal padding (left & right) */
   font-family: 'Roboto', Arial, sans-serif;
   background: var(--background);
   color: var(--text);
@@ -225,7 +227,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   gap: 28px;
-  margin: 12px;
+  /* margin: 12px; */
 }
 .about-card {
   flex: 2 1 380px;
@@ -586,7 +588,7 @@ footer p {
 
 @media (max-width: 750px) {
   .section {
-    margin: 12px 0;
+    margin: 12px 10px;
     padding: 10px 1vw;
     border-radius: 11px;
     box-shadow: none;
@@ -616,10 +618,10 @@ footer p {
     flex-direction: column;
     gap: 9px;
   }
-  .about-card,
+  .about-card
   .contact-card,
   .contact-form {
-    padding: 11px 4px;
+    padding: 11px 20px;
     border-radius: 8px;
   }
   .about-stats div {
@@ -716,7 +718,7 @@ footer p {
 /* Extra Small Devices */
 @media (max-width: 500px) {
   .section {
-    padding: 6px 0.5vw;
+    padding: 6px 10px;
     border-radius: 7px;
   }
   .hero-content h1 {
@@ -732,7 +734,7 @@ footer p {
   .about-card,
   .contact-card,
   .contact-form {
-    padding: 7px 2px;
+    padding: 7px 12px;
     border-radius: 5px;
   }
   .education-card {
